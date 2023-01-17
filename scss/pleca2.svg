@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369.981" height="452" viewBox="0 0 369.981 452">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rect&#xE1;ngulo_5164" data-name="Rect&#xE1;ngulo 5164" width="369.981" height="452" rx="20" transform="translate(124 1705)" fill="#ee2737"/>
+    </clipPath>
+  </defs>
+  <g id="background" transform="translate(-124 -1705)">
+    <rect id="Rect&#xE1;ngulo_390" data-name="Rect&#xE1;ngulo 390" width="369.981" height="452" rx="20" transform="translate(124 1705)" fill="#ee2737"/>
+    <g id="Enmascarar_grupo_17" data-name="Enmascarar grupo 17" clip-path="url(#clip-path)">
+      <g id="Rect&#xE1;ngulo_5162" data-name="Rect&#xE1;ngulo 5162" transform="translate(-36 2057.185) rotate(-17)" fill="none" stroke="#cc1422" stroke-width="50" opacity="0.46">
+        <rect width="359.176" height="262.021" rx="131.011" stroke="none"/>
+        <rect x="25" y="25" width="309.176" height="212.021" rx="106.011" fill="none"/>
+      </g>
+      <g id="Rect&#xE1;ngulo_5163" data-name="Rect&#xE1;ngulo 5163" transform="translate(259.956 1752.195) rotate(-17)" fill="none" stroke="#cc1422" stroke-width="50" opacity="0.46">
+        <rect width="359.176" height="262.021" rx="131.011" stroke="none"/>
+        <rect x="25" y="25" width="309.176" height="212.021" rx="106.011" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1525" height="200" viewBox="0 0 1525 200">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rect&#xE1;ngulo_5244" data-name="Rect&#xE1;ngulo 5244" width="1525" height="200" transform="translate(-427 2218)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rect&#xE1;ngulo_5168" data-name="Rect&#xE1;ngulo 5168" width="1542.835" height="202.441" rx="15" transform="translate(-427.746 2013.486)" fill="#d9d9d6" opacity="0.194"/>
+    </clipPath>
+  </defs>
+  <g id="background" transform="translate(427 -2218)" clip-path="url(#clip-path)">
+    <g id="Grupo_35852" data-name="Grupo 35852" transform="translate(-551 634)">
+      <rect id="Rect&#xE1;ngulo_390" data-name="Rect&#xE1;ngulo 390" width="1524.603" height="202.441" rx="15" transform="translate(124 1583)" fill="#25282a"/>
+    </g>
+    <g id="Enmascarar_grupo_18" data-name="Enmascarar grupo 18" transform="translate(0 203.515)" clip-path="url(#clip-path-2)">
+      <g id="Trazado_45767" data-name="Trazado 45767" transform="translate(522 2143.147) rotate(-17)" fill="none" opacity="0.111">
+        <path d="M131.011,0h97.155a131.011,131.011,0,0,1,0,262.021H131.011A131.011,131.011,0,0,1,131.011,0Z" stroke="none"/>
+        <path d="M 131.0105743408203 49.99998474121094 C 86.3411865234375 49.99998474121094 49.99996948242188 86.3411865234375 49.99996948242188 131.0105895996094 C 49.99996948242188 175.6799926757812 86.3411865234375 212.0211944580078 131.0105743408203 212.0211944580078 L 228.1651763916016 212.0211944580078 C 272.8345642089844 212.0211944580078 309.17578125 175.6799926757812 309.17578125 131.0105895996094 C 309.17578125 86.3411865234375 272.8345642089844 49.99998474121094 228.1651763916016 49.99998474121094 L 131.0105743408203 49.99998474121094 M 131.0105743408203 0 L 228.1651763916016 0 C 300.520263671875 0 359.17578125 58.6553955078125 359.17578125 131.0105895996094 C 359.17578125 203.3657836914062 300.520263671875 262.0211791992188 228.1651763916016 262.0211791992188 L 131.0105743408203 262.0211791992188 C 58.65536499023438 262.0211791992188 -3.0517578125e-05 203.3657836914062 -3.0517578125e-05 131.0105895996094 C -3.0517578125e-05 58.6553955078125 58.65536499023438 0 131.0105743408203 0 Z" stroke="none" fill="#ccc"/>
+      </g>
+      <g id="Rect&#xE1;ngulo_5167" data-name="Rect&#xE1;ngulo 5167" transform="translate(-245.045 1940.706) rotate(-17)" fill="none" stroke="#ccc" stroke-width="50" opacity="0.087">
+        <rect width="359.176" height="262.021" rx="131.011" stroke="none"/>
+        <rect x="25" y="25" width="309.176" height="212.021" rx="106.011" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
