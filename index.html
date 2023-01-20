@@ -13,6 +13,9 @@
     <link rel="shortcut icon" href="./assets/img/loader.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/estilos.css" />
     <link rel="stylesheet" href="./assets/css/bootstrapv5.css"  />
+    <link rel="stylesheet"  href="vex/css/vex.css" />
+    <link rel="stylesheet"  href="vex/css/vex-theme-bottom-right-corner.css" />
+    <link rel="stylesheet"  href="vex/css/vex-theme-flat-attack.css" />
     <!-- Pixeles medio organico --> <!--  Google Analytics -->
       
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78532329-1"></script>
@@ -24,7 +27,10 @@
     gtag('config', 'UA-78532329-1');
     </script>
   </head>
-  <body>
+  <body onload="cargando();">
+      <div id="cargando">
+        <img src="./assets/img/loader.png" alt="procesando..." class="rotate" />
+      </div>
 
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-lg" >
@@ -72,19 +78,22 @@
 
                             </div>
                             <div class="col-md-5">
-                                    <form class="formulario card p-4 shadow-lg" >
+                                    <form class="formulario card p-4 shadow-lg"  >
 
                                       <h6 class="titulof">¡Solicita más información!</h6>
                                       <small class="smaf">Completa el siguiente formulario y nos contactaremos contigo.</small>
                         
+                              <div id="form-plan">        
                                       <!-- grado input -->
+
+                                      <input type="hidden" value="UNEA" id="marca" />
 
                                       <div class="fr-input ">
                                         <label><b>Nivel de estudios *</b></label>  
                                         <select class="form-select" id="categoria" name="categoria">
                                           <option value="">Selecciona una opción</option>
                                         </select>
-
+                                     
                                       </div>
 
                                       <div class="fr-input ">
@@ -92,6 +101,7 @@
                                         <select class="form-select " id="carrera" name="carrera">
                                               <option value="">Selecciona una opción</option>
                                         </select>
+                                      
                                       </div>
 
                                       <div class="fr-input ">
@@ -99,6 +109,7 @@
                                         <select class="form-select " name="campus" id="campus">
                                               <option value="">Selecciona una opción</option>
                                         </select>
+                                   
                                       </div>
 
                                       <div class="fr-input">
@@ -107,33 +118,44 @@
                                             <option value="">Selecciona una opción</option>
                                         </select>
                                       </div>
+                             
 
-                                      <button type="button" class="btn btn-azul btn-block mt-4">Continuar</button>
+                                <button type="button" id="continuar" class="btn btn-azul  mt-4">Continuar</button>
+                              </div>
 
-                                      <div class="" style="display: none;">
+                              
+
+
+                              <div id="form-user" style="display: none;">
                                         <!-- nombre completo input -->
-                                                    <div class="form-outline ">
-                                                      <label class="form-label">Nombre completo</label>
+                                                    <div class="fr-input">
+                                                      <label><b>Nombre completo *</b></label>
                                                       <input type="text" id="name" name="full_name" class="form-control" />
                                                     </div>
                                                     
                                                     <!-- Email input -->
-                                                    <div class="form-outline">
-                                                      <label class="form-label">Correo electrónico</label>
-                                                      <input type="email" id="email" name="email" class="form-control" />
+                                                    <div class="fr-input">
+                                                        <label><b>Correo electrónico *</b></label>
+                                                      <input type="email" id="email" name="email" class="form-control"   />
                                                     
                                                     </div>
                                                     
                                                     <!-- telefono input -->
-                                                    <div class="form-outline  ">
-                                                      <label class="form-label">Teléfono</label>
-                                                      <input type="tel" id="telefono" name="phone" maxlength="10" integer class="form-control" />
+                                                    <div class="fr-input">
+                                                        <label><b>Teléfono *</b></label>
+                                                      <input type="tel" id="telefono" name="phone" maxlength="10" integer class="form-control"   />
+                                                    </div> 
+                                                      <div class="row col-md-12 avisos mt-3 ">
+                                                          <small >Al hacer clic en "<b>Enviar</b>",reconoces haber leído el <a
+                                                              style="color:dodgerblue !important ;" href="https://www.aliatuniversidades.com.mx/aliat/aviso-de-privacidad"
+                                                              target="_blank">Aviso de Privacidad</a> y confirmas estar de acuerdo con el uso de ellas.</small>
 
-                                                      <button type="submit" class="btn btn-azul btn-block mt-4">Continuar</button>
-                                                    
-                                        </div>
+                                                      </div>
+                                                    <button type="submit"  id="enviar" class="btn btn-azul  mt-3">Enviar</button>
+                                                    <button type="button" id="regresar" class="btn btn-outline-primary  mt-1">Regresar</button>
+                                </div>
 
-                                      </div>   
+                              </div>   
                                     
 
                                       
@@ -305,7 +327,7 @@
                             <p class="p-cf">Se encuentra en el lugar 48 de las 100 mejores universidades del país y 23 entre las privadas*, y ha recibido, por
                             parte de la SEP, el reconocimiento de Instituciones de Alta Calidad.
                              <br><br><spna ><b>Llevamos 16 años formando</b></spna> a cerca de 20 mil profesionales.</p>
-                            <a class=" btn-azul btn" href="#">¡Si quiero ser parte!</a>
+                            <a class=" btn-azul btn" href="#fr">¡Si quiero ser parte!</a>
                             <br><br>
                           </div>
                           
@@ -482,7 +504,10 @@
                         </div>
                       </div>
                 
-      <script src="./assets/js/poppersv5.js" text="text/javascript"></script>
-      <script src="./assets/js/bootstrapv5.js" text="text/javascript"></script>
+      <script src="./assets/js/poppersv5.js" type="text/javascript"></script>
+      <script src="./assets/js/bootstrapv5.js" type="text/javascript"></script>
+      <script src="vex/js/vex.combined.min.js" type="text/javascript" ></script>
+      <script src="./assets/js/funciones.js" type="text/javascript"></script>
+      <script src="./assets/js/app.js"  type="text/javascript"></script>
   </body>
 </html>
