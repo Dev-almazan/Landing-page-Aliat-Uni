@@ -1,4 +1,4 @@
-# Landing-page-Aliat-Uni
+# Landing-page
 
 Esto es una landing page desarrollada con HTML CSS JS & BOOTSTRAP de forma nativa.
 
